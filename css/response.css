@@ -1,0 +1,209 @@
+@media only screen and (max-width: 1150px) {
+    .wrapper {
+      width: 95%;
+    }
+    .section_works_cont_images{
+        width: 49%;
+    }
+    .section_works_cont_images:nth-child(3){
+        margin-top: 10px;
+    }
+    .section_says_cont{
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .section_team_cont_items{
+        width: 49%;
+    }
+    .section_team_cont_items:nth-child(3){
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .section_services_cont_items_cont,
+    .section_says_cont{
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .section_about_cont{
+        flex-direction: column;
+    }
+    .section_about_img,
+    .section_about_par,
+    .section_says_row{
+        width: 100%;
+    }
+    .section_about_par,
+    .section_says_row{
+        margin-top: 30px;
+    }
+    .section_about_par_sections > p,
+    .section_about_par_sections > h2{
+        text-align: center;
+    }
+    .section_about_par_sections > h2,
+    .section_says_cont_title > h3,
+    .section_services_cont_items_title > h2{
+        font-size: 26px;
+    }
+    .section_about_par_sections > p,
+    .section_says_cont_title > h3 > span{
+        font-size: 23px;
+    }
+    .section_says_cont_par > p,
+    .section_services_cont_items_par > p{
+        font-size: 20px;
+    }
+    .section_about,
+    .section_works,
+    .section_services,
+    .section_team,
+    .section_says,
+    .section_logos{
+        padding: 90px 0;
+    }
+    .section_logos{
+        padding-bottom: 0;
+    }
+    .section_logos_content_bgImg_wrap{
+        flex-wrap: wrap;
+    }
+    .section_logos_bgImg_form,
+    .section_logos_bgImg_inform{
+        width: 100%;
+    }
+    .section_logos_bgImg_inform{
+        margin-top: 30px;
+    }
+    .section_logos_inform_adress > h3,
+    .section_logos_inform_web > h3{
+        font-size: 20px;
+    }
+    .section_services_cont_items40,
+    .section_services_cont_items57{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section_services_cont_items40:nth-child(2){
+        margin-top: 20px;
+    }
+    .section_logos_content_bgImg_white{
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sections_title{
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .section_home_title > h2{
+        font-size: 30px;
+    }
+    .section_services_cont_items_color{
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .section_works_cont_images,
+    .section_team_cont_items{
+        width: 100%;
+    }
+    .section_works_cont_images:nth-child(2),
+    .section_team_cont_items:nth-child(2){
+        margin-top: 10px;
+    }
+    .section_services_cont_items_par,
+    .section_services_color_items_par{
+        margin: 20px 0 50px 0;
+    }
+    .section_home_but{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .section_services_cont_items_color{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .section_services_cont_items_title > h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .section_services_cont_items_par > p{
+        font-size: 17px;
+    }
+    .section_services_color_items_par{
+        margin: 10px 0 20px 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .section_about_par_sections > h2{
+        font-size: 20px;
+    }
+    .section_about_par_sections > p{
+        font-size: 17px;
+    }
+    .section_about,
+    .section_works,
+    .section_services,
+    .section_team,
+    .section_says,
+    .section_logos{
+        padding: 50px 0;
+    }
+    .section_services_color_items_title > h2{
+        font-size: 16px;
+    }
+    .section_services_color_items_par > p{
+        font-size: 13px;
+        line-height: 1.2;
+    }
+    .section_home_title > h2{
+        font-size: 22px;
+    }
+    .sections_title > h2{
+        font-size: 30px;
+    }
+    .sections_title > h3{
+        font-size: 15px;
+    }
+    .sections_title{
+        margin-bottom: 60px;
+    }
+    .section_logos_content_bgImg_white{
+        padding-bottom: 50px;
+    }
+    .section_logos_inform_adress > h3, .section_logos_inform_web > h3{
+        word-break: break-all;
+    }
+    .section_says_cont{
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .section_services_cont_items_par{
+        margin: 15px 0 25px 0;
+    }
+    .section_services_cont_items_title > h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .section_services_cont_items_par > p{
+        font-size: 13px;
+    }
+    .section_services_color_items_par > p{
+        text-align: center;
+        line-height: 1.1;
+        font-size: 12px;
+    }
+    .section_services_cont_items_color{
+        padding: 5px;
+    }
+    .section_services_color_items_par{
+        margin: 5px 0 15px 0;
+    }
+}
